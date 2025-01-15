@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "wagtail_blog"
-version = "2.3.5"
+version = "3.0.0"
 description = "A wordpress like blog app implemented in wagtail"
 authors = ["David Burke"]
 license = "Apache License"
@@ -22,7 +22,7 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.6"
 Django = "*"
-wagtail = "^2"
+wagtail = "^5"
 requests = "*"
 lxml = "*"
 
